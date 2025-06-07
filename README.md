@@ -1,5 +1,4 @@
 # Body for Victron 7 inch display
-## Krabice pro 7" display 
 
 ![image](https://github.com/user-attachments/assets/3574a9cf-f45e-4ab0-b388-d8d080f19003)
 
