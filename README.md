@@ -6,46 +6,56 @@
 
 Archív obsahuje soubory:
 
-STL
- |- 7_INCH_HMDI_Display.stl
-    Cable_Holder.stl
-    Magnety.stl
-    PredniDil.stl
-    Zadni_cast.stl
-7_INCH_HDMI_Display.f3d
-Cable_Holder.f3d
-Magnety.f3d
-Sestava_Display.f3z
+|-- 7_INCH_HDMI_Display.f3d
+|-- Cable_Holder.f3d
+|-- Magnety.f3d
+|-- Sestava_Display.f3z
+|-- STL/
+    |-- 7_INCH_HDMI_Display.stl
+    |-- Cable_Holder.stl
+    |-- Magnety.stl
+    |-- PredniDil.stl
+    |-- Zadni_cast.stl
 
-soubory s příponou *.f3d jsou modely peo FUSION360, jsou modelovány ve verzi FREE :).
-Soubory s příponou *.stl jsou urceny pro přímy tisk na 3D tiskárně
 
-7_INCH_HMDI_Display.stl: toto není třeba tiskout, je to model displaye:
-  https://www.aliexpress.com/item/1005001981876303.html?spm=a2g0o.order_list.order_list_main.10.23dc1802vRtRyZ
-  Je to užitečné, když chcete neco upravit a nechcete riskovat kolizy s displayem, tak si ho vložíte do modelu a upravujete
+Soubory s příponou `.f3d` jsou modely pro Fusion 360, modelovány ve verzi FREE.
+Soubory s příponou `.stl` jsou určeny pro přímý tisk na 3D tiskárně.
 
-Cable_Holder.stl: toto je držák kabelu USB a HDMI, je dobre si před tiskem upravit podle použitých průměrů kabelů. 
-                  Do otvoru 4.2 mm tepelně nalisovat (třeba páječkou) zavitové vložky, celkem 4 kusy.
-                  Šrouby pro uchycení jsou použity M3x8 ISO 10642 A2, celkem 4 kusy.
+### 7_INCH_HDMI_Display.stl
+Tento soubor není třeba tisknout, jedná se o model displeje: 7 Inch IPS HDMI Touch Screen kapacitní 1024x600.
+[Odkaz na produkt](https://www.aliexpress.com/item/1005001981876303.html?spm=a2g0o.order_list.order_list_main.10.23dc1802vRtRyZ)
+Je užitečný, pokud chcete něco upravit a nechcete riskovat kolize s displejem. Vložte ho do modelu a upravujte.
 
-Magnety.stl: otovy pro magnetu je taká dobré si upravit podle velikosti jaké použijete. Použijte velké neodimové.
-             Do otvoru 4.2 mm tepelně nalisovat (třeba páječkou) zavitové vložky, celkem 4 kusy.
-             Šrouby pro uchycení jsou použity M3x8 ISO 10642 A2, celkem 4 kusy.
+### Cable_Holder.stl
+Jedná se o držák kabelu USB a HDMI. Je dobré si před tiskem upravit podle použitých průměrů kabelů.
+Do otvoru o průměru 4,2 mm tepelně nalisujte (např. páječkou) závitové vložky, celkem 4 kusy.
+Šrouby pro uchycení jsou použity M3x8 ISO 10642 A2, celkem 4 kusy.
 
-PredniDil.stl: přední díl, do otvoru 4.2 mm tepelně nalisovat (třeba páječkou) zavitové vložky, celkem 4 kusy.
-               Šrouby pro uchycení jsou použity M3x14 ISO 10642 A2, celkem 4 kusy.
+### Magnety.stl
+Otvor pro magnety je dobré si upravit podle velikosti použitých magnetů. Použijte velké neodymové magnety.
+Do otvoru o průměru 4,2 mm tepelně nalisujte (např. páječkou) závitové vložky, celkem 4 kusy.
+Šrouby pro uchycení jsou použity M3x8 ISO 10642 A2, celkem 4 kusy.
 
-Zadni_cast.stl: k tomuto dílu přišroubujete nejprve díl: Magnety.stl (šrouby jsou uvedeny víše a s osazenymi magnety, určite jte magnety osadily jeden severni stranou nahoru a druhy jižni stranou nahoru, prostě na přeskáčku a lepit tyto magnety lepidlem Loctite AA 326 a aktivátor Loctite SF 7649, lepíte nemagnetické díly, tak proto aktivátor.
+### PredniDil.stl
+Přední díl. Do otvoru o průměru 4,2 mm tepelně nalisujte (např. páječkou) závitové vložky, celkem 4 kusy.
+Šrouby pro uchycení jsou použity M3x14 ISO 10642 A2, celkem 4 kusy.
 
-https://www.bossard.com/eshop/cz-cs/lisovaci-zavitove-vlozky-pro-plasty/zavitove-vlozky-pro-zalisovani-bez-hlavy-pro-termoplasty-a-termosety/p/1054/
- ISO 10642
- 
-###
----
+### Zadni_cast.stl
+K tomuto dílu nejprve přišroubujte díl Magnety (šrouby jsou uvedeny výše) s osazenými magnety. Ujistěte se, že magnety jsou osazeny jednou severní stranou nahoru a druhou jižní stranou nahoru, tedy na přeskáčku. Lepte magnety lepidlem Loctite AA 326 a aktivátorem Loctite SF 7649. Následně přišroubujte Cable_Holder s kabely. Vložte displej 7 Inch IPS HDMI Touch Screen kapacitní 1024x600 do předního dílu a ten zacvakněte k zadní části. Celé to sešroubujte šrouby M3x14 ISO 10642 A2.
+
+### Sestava_Display.f3z
+Sestava všech dílů, bez závitových vložek a šroubů.
+
+### Použitý materiál
+- Závitové vložky: celkem 12 kusů
+  [Odkaz na závitové vložky](https://www.bossard.com/eshop/cz-cs/lisovaci-zavitove-vlozky-pro-plasty/zavitove-vlozky-pro-zalisovani-bez-hlavy-pro-termoplasty-a-termosety/p/1054/)
+- Šrouby M3 ISO 10642 A2:
+  - M3x8 ISO 10642 A2: celkem 8 kusů
+  - M3x14 ISO 10642 A2: celkem 4 kusy
+
 
 ## Pracujte pečlivě! Dvakrát měř, jednou řež...
 
----
 
 ## Zřeknutí se odpovědnosti
 
