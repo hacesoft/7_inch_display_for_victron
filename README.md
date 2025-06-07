@@ -1,8 +1,7 @@
 # Body for Victron 7 inch display
 ## Krabice pro 7" display 
 
-![image](https://github.com/user-attachments/assets/cc1f7479-0ecf-499c-a924-9f30cde00ed9)
-
+![image](https://github.com/user-attachments/assets/3574a9cf-f45e-4ab0-b388-d8d080f19003)
 
 Archív obsahuje soubory:
 ```
@@ -42,9 +41,13 @@ Přední díl. Do otvoru o průměru 4,2 mm tepelně nalisujte (např. páječko
 
 ### Zadni_cast.stl
 K tomuto dílu nejprve přišroubujte díl Magnety (šrouby jsou uvedeny výše) s osazenými magnety. Ujistěte se, že magnety jsou osazeny jednou severní stranou nahoru a druhou jižní stranou nahoru, tedy na přeskáčku. Lepte magnety lepidlem Loctite AA 326 a aktivátorem Loctite SF 7649. Následně přišroubujte Cable_Holder s kabely. Vložte displej 7 Inch IPS HDMI Touch Screen kapacitní 1024x600 do předního dílu a ten zacvakněte k zadní části. Celé to sešroubujte šrouby M3x14 ISO 10642 A2.
+![image](https://github.com/user-attachments/assets/5acdeab1-afae-4ab9-8070-731779162f59)
+
 
 ### Sestava_Display.f3z
 Sestava všech dílů, bez závitových vložek a šroubů.
+![image](https://github.com/user-attachments/assets/cc1f7479-0ecf-499c-a924-9f30cde00ed9)
+
 
 ### Použitý materiál
 - Závitové vložky: celkem 12 kusů
