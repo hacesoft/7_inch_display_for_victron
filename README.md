@@ -5,7 +5,7 @@
 
 
 Archív obsahuje soubory:
-
+```
 |-- 7_INCH_HDMI_Display.f3d
 |-- Cable_Holder.f3d
 |-- Magnety.f3d
@@ -16,7 +16,7 @@ Archív obsahuje soubory:
     |-- Magnety.stl
     |-- PredniDil.stl
     |-- Zadni_cast.stl
-
+```
 
 Soubory s příponou `.f3d` jsou modely pro Fusion 360, modelovány ve verzi FREE.
 Soubory s příponou `.stl` jsou určeny pro přímý tisk na 3D tiskárně.
